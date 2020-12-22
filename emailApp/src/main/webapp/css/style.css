@@ -1,0 +1,98 @@
+#bodyDiv {
+	height: 100%;
+	min-height: 100vh;
+}
+
+.login-tabs:hover {
+	cursor: pointer;
+}
+
+.activeTab {
+	background: white;
+	color: rgba(77, 169, 255, 1);
+	border-radius: 20px 20px 0px 0px;
+}
+
+/* .inactiveTab {
+	color:#fff;
+	background: rgba(77, 169, 255, 1);
+} */
+.inactiveTab-login {
+	color: #fff;
+	background: rgba(77, 169, 255, 1);
+	border-radius: 20px 0px 20px 0px;
+}
+
+.inactiveTab-signup {
+	color: #fff;
+	background: rgba(77, 169, 255, 1);
+	border-radius: 0px 20px 0px 20px;
+}
+
+.login-container {
+	background: rgba(77, 169, 255, 1);
+	box-shadow: 2px 2px 8px black;
+	border-radius: 20px;
+}
+
+#loginForm {
+	padding: 0px 20px 0px 20px;
+}
+
+#signUpForm {
+	padding: 0px 20px 0px 20px;
+}
+
+#signUpTab {
+	
+}
+
+#logInTab {
+	
+}
+
+.activeTabDiv {
+	background: rgba(77, 169, 255, 1);
+}
+
+.inactiveTabDiv {
+	background: #ffffff;
+}
+
+.logInTabdiv {
+	padding: 0px;
+	border-radius: 20px 0px 0px 0px;
+}
+
+.signUpTabdiv {
+	padding: 0px;
+	border-radius: 0px 20px 0px 0px;
+}
+
+.loginFormDiv {
+	background: #fff;
+	border-radius: 0px 20px 20px 20px;
+}
+
+.signUpFormDiv {
+	background: #fff;
+	border-radius: 20px 0px 20px 20px;
+}
+
+#loginSubmit {
+	background: #4da9ff;
+	color: #fff;
+}
+
+#signUpSubmit {
+	background: #4da9ff;
+	color: #fff;
+}
+
+
+/* raiseReq.html */
+
+.my-dropdown {
+	height: 30px;
+    border-radius: 5px;
+}
